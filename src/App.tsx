@@ -5,16 +5,20 @@ import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Self from './components/Self';
+import  Navbar  from './components/Navbar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black">
+      <Navbar/>
       <Hero />
       <About />
       <Services />
       <Portfolio />
       <Testimonials />
       <Contact />
+      <Self />
       <Footer />
     </div>
   );
