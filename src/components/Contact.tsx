@@ -7,7 +7,8 @@ import { Textarea } from './ui/textarea';
 
 function DefaultDemo() {
 	return (
-		<main className="relative flex size-full min-h-screen w-full items-center justify-center p-4">
+		<main className="relative flex size-full min-h-screen w-full items-center justify-center p-4 bg-gradient-to-b from-neutral-950 to-neutral-900
+">
 			<div className="mx-auto max-w-6xl ">
 				<ContactCard
 					title="Let’s Design Your Dream Space"

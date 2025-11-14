@@ -8,7 +8,7 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="py-24 bg-black">
+    <section ref={ref} className="py-24 bg-gradient-to-b from-neutral-950 to-neutral-950">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
 

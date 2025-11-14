@@ -66,3 +66,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+html{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}

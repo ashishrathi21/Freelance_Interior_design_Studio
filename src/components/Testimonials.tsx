@@ -17,7 +17,7 @@ const testimonials = [
 
 function TestimonialSectionDemo() {
   return (
-    <div className="w-full bg-black mt-[250px]">
+    <div className="w-full bg-gradient-to-b from-black to-neutral-950 pt-[250px]">
       <AnimatedTestimonialGrid
         testimonials={testimonials}
         title={

@@ -58,7 +58,8 @@ const galleryItems: GalleryItem[] = [
  */
  function CircularGalleryDemo() {
   return (
-    <div className="relative h-[600px] w-full rounded-lg bg-black">
+    <div className="relative h-[600px] w-full bg-gradient-to-b from-black/90 to-black
+">
 
       {/* Centered text wrapper */}
       <div className="flex flex-col items-center justify-center pt-10">

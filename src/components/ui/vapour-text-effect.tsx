@@ -4,12 +4,12 @@ import React, { useRef, useEffect, useState, createElement, useMemo, useCallback
 
 export const Component = () => {
     return (
-        <div className='bg-black h-[80vh] w-screen flex justify-center items-center'>
+        <div className='bg-gradient-to-b from-[#171717] to-black h-[80vh] w-screen flex justify-center items-center'>
             <VaporizeTextCycle
-                texts={["7th Space", "Interior Design Studio"]}
+                texts={["7th Space", "Interior Designs"]}
                 font={{
                     fontFamily: "Inter, sans-serif",
-                    fontSize: "100px",
+                    fontSize: "70px",
                     fontWeight: 700
                 }}
                 color="rgb(255,255, 255)"

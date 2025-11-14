@@ -47,7 +47,7 @@ const HeroSectionDemo = () => {
   };
 
   return (
-    <div className="w-full bg-neutral-950 px-4 sm:px-6 lg:px-8 pt-12">
+    <div className="w-full">
       <HeroSection
         title={heroData.title}
         subtitle={heroData.subtitle}
