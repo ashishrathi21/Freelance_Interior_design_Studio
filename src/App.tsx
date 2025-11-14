@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Self from './components/Self';
+import Self from './components/self';
 import  Navbar  from './components/Navbar';
 
 function App() {
